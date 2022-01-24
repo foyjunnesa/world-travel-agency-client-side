@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "France",
+        "description": "France, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine.",
+        "img": "https://image.freepik.com/free-photo/cityscape-paris-sunlight-blue-sky-fra_181624-50289.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Italy",
+        "description": "Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine.",
+        "img": "https://t4.ftcdn.net/jpg/01/99/34/93/240_F_199349371_13ID7YwyGGHZftI1ttHlPn2nxBHg3GDv.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Qatar",
+        "description": "Qatar a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine.",
+        "img": "https://image.freepik.com/free-photo/dubai-marina_158595-2000.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Swizerland",
+        "description": "Switzerland a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine.",
+        "img": "https://image.freepik.com/free-photo/beautiful-village-snow-covered-mountain_181624-4248.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Australia",
+        "description": "Australia, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine.",
+        "img": "https://t4.ftcdn.net/jpg/02/74/93/29/240_F_274932952_WaDiDy54aNkqTn2C7D2vBDir5zBCIOSe.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Maldives",
+        "description": "Maldives, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine.",
+        "img": "https://t3.ftcdn.net/jpg/01/07/03/64/240_F_107036457_0UdnzTpoQU7b10QNlaxFxolENUW1OniF.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Thailand",
+        "description": "Thailand a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine.",
+        "img": "https://t4.ftcdn.net/jpg/00/87/66/13/240_F_87661363_Kz4atvfYobgzVYUdryLITFUfK8eefz6p.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Turkey",
+        "description": "Turkey, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine.",
+        "img": "https://t3.ftcdn.net/jpg/03/03/07/10/240_F_303071030_ptXStmsSpHpjBhxQTWtfGhGfak53vUva.jpg"
+    }
+]

@@ -1,0 +1,36 @@
+.carousel{
+    height: 500px;
+}
+
+.caption-one{
+    color: rgb(238, 238, 129);
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 35px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 8px;
+    margin-bottom: 350px;
+}
+
+.caption-two{
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 35px;
+    margin-bottom: 100px;
+    font-weight: 500;
+}
+
+.caption-four{
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 35px;
+    border-radius: 5px;
+    width: 600px;
+    padding-top: 3px;
+    padding-bottom: 8px;
+    margin-left: 150px;
+    font-weight: 500;
+}

@@ -1,0 +1,83 @@
+.famous-img{
+    margin-left: 130px;
+    margin-top: 60px;
+    
+}
+
+.famous-img:hover{
+  height: 400px;
+}
+
+.famous-destinations{
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 60px;
+    
+}
+
+.famous-part p{
+    font-size: 15px;
+    color: #8D9199;
+    font-weight: 500;
+}
+
+.famous-img img{
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 20px;
+    transition: height 4s;
+}
+
+.tokyo{
+position: absolute;
+margin-left: 30px;
+margin-top: 335px;
+color: white;
+font-size: 24px;
+font-weight: 700;
+font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+.seoul{
+position: absolute;
+margin-left: 300px;
+margin-top: 335px;
+color: white;
+font-size: 24px;
+font-weight: 700;
+font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+.london{
+position: absolute;
+margin-left: 570px;
+margin-top: 335px;
+color: white;
+font-size: 24px;
+font-weight: 700;
+font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+.bali{
+position: absolute;
+margin-left: 850px;
+margin-top: 335px;
+color: white;
+font-size: 24px;
+font-weight: 700;
+font-family: Poppins, Helvetica, Arial, sans-serif;
+}
+
+/* Make it responsive */
+@media only screen and (max-width:688px) {
+    .famous-img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+ }
+ @media only screen and (min-width:689px) and (max-width:991px) {
+     
+    .famous-img{
+        display: grid;
+         grid-template-columns: repeat(2, 1fr);
+     }
+ 
+ }
