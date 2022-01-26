@@ -10,6 +10,7 @@ import Booking from './pages/Booking/Booking';
 import Login from './pages/Login/Login/Login';
 import AuthProvider from './context/AuthProvider';
 import Services from './pages/Home/Services/Services';
+import AddService from './pages/AddService/AddService';
 
 function App() {
   return (
@@ -43,6 +44,10 @@ function App() {
 
             </Route>
             <Route path="/booking/:serviceId" element={<Booking />}>
+
+            </Route>
+
+            <Route path="/addservice" element={<AddService />}>
 
             </Route>
 
