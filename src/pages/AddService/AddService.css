@@ -1,14 +1,30 @@
+.add-service{
+    border: 2px solid gray;
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 20%;;
+    border-radius: 5px;
+}
+
 .add-service form{
 display: flex;
 flex-direction: column;
 align-items: center;
+margin-bottom: 30px;
+
 }
 
 .add-service input{
-    width: 30%;
+    width: 50%;
     margin-top: 20px;
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 10px;
+    border: 1px solid tomato;
+}
+
+.submit{
+    background-color: tomato;
+    font-weight: 700;
 }
