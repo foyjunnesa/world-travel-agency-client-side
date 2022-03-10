@@ -5,3 +5,36 @@
 .more-fun{
     margin-top: 60px;
 }
+
+/* Make it responsive */
+@media only screen and (max-width:688px) {
+    .discount-name{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .more-fun{
+        text-align: center;
+        padding-left: 90px;
+    }
+
+    .btn{
+        margin-bottom: 30px;
+    }
+ }
+ @media only screen and (min-width:689px) and (max-width:991px) {
+     
+    .discount-name{
+        display: flex;
+        flex-direction: column;
+     }
+ 
+     .more-fun{
+        text-align: center;
+        padding-left: 90px;
+    }
+
+     .btn{
+        margin-bottom: 30px;
+    }
+ }

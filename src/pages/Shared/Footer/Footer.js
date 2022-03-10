@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-md-4 text-white">
                         <h4>About Us</h4>
-                        <p className="text-align-justify">Since 2020, we’ve helped more than 500,000 people of all ages enjoy the best outdoor experience of their lives. Whether it’s for one day or a two-week vacation, close to home or a foreign land and something like that.</p>
+                        <h6 className="text-align-justify">Since 2020, we’ve helped more than 500,000 people of all ages enjoy the best outdoor experience of their lives. Whether it’s for one day or a two-week vacation, close to home or a foreign land and something like that.</h6>
 
                     </div>
                     <div className="col-md-2 text-white ms-5">

@@ -7,16 +7,16 @@ const Header = () => {
     const { user, logOut } = useAuth();
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="light" sticky="top">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="light">
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
                     <Nav.Link as={Link} to="/" style={{ textDecoration: "none", fontSize: "20px", marginRight: "10px", padding: "6px", color: "white" }} >
-                        <img style={{ height: "40px" }} src="https://image.freepik.com/free-vector/airplane-flying-around-globe_1284-42938.jpg" alt="" />
+                        <img style={{ height: "30px" }} src="https://t3.ftcdn.net/jpg/03/15/46/02/240_F_315460238_r9VGtbJzt7emruDKEY2ouioFPdcbMKs4.jpg" alt="" />
                         <span className="text-success" style={{ fontFamily: 'cursive', paddingLeft: '10px', fontSize: '25px' }} >W-Travel</span>
                     </Nav.Link>
                     {/* NavLink for Route */}
-                    <Nav className="me-auto" id="responsive-navbar-nav" className="me-auto nav-iteam justify-content-end">
+                    <Nav className="me-auto nav-iteam justify-content-end" id="responsive-navbar-nav">
 
                         <Nav.Link as={Link} to="/home" style={{ textDecoration: "none", fontSize: "20px", marginRight: "10px", padding: "6px", color: "white" }}>Home</Nav.Link>
 
@@ -27,10 +27,6 @@ const Header = () => {
                         {user?.email ?
                             <Button onClick={logOut} variant="light">Logout</Button> :
                             <Nav.Link as={Link} to="/login" style={{ textDecoration: "none", fontSize: "20px", marginRight: "10px", padding: "6px", color: "white" }}>Login</Nav.Link>}
-
-                        <Navbar.Text>
-                            Signed in as: <a href="#login">{user?.displayName}</a>
-                        </Navbar.Text>
                     </Nav>
                 </Container>
             </Navbar>

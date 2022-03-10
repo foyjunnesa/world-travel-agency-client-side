@@ -5,3 +5,44 @@
     overflow: hidden;  
      
 }
+
+/* Make it responsive */
+@media only screen and (max-width:688px) {
+    
+    .footer{
+        padding-bottom: 20px;
+    }
+    
+    h5{
+        text-align: center;
+        margin-right: 80px;
+        margin-top: 30px;
+        
+    }
+
+    p{
+        text-align: center;
+        margin-right: 100px;
+        margin-top: 20px;
+    }
+    
+    
+ }
+ @media only screen and (min-width:689px) and (max-width:991px) {
+     
+    .footer{
+        padding-bottom: 20px;
+    }
+
+    h5{
+        text-align: center;
+        margin-right: 20px;
+     }
+
+    p{
+        text-align: center;
+        margin-right: 20px;
+        margin-top: 30px;
+     }
+
+ }
